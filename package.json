@@ -1,0 +1,57 @@
+{
+  "name": "nvr",
+  "version": "1.0.0",
+  "description": "NVR",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "clearCache": "jest --clearCache",
+    "release": "npm-run-all clearCache lint build test:unit test:e2e"
+  },
+  "dependencies": {
+    "@coreui/coreui-pro": "~3.0.0",
+    "@coreui/icons": "~1.0.1",
+    "@coreui/vue": "~3.0.0",
+    "axios": "^0.19.2",
+    "element-ui": "^2.13.0",
+    "iview": "^3.5.4",
+    "jquery": "^3.4.1",
+    "vue": "~2.6.11",
+    "vue-i18n": "^8.15.7",
+    "vue-router": "~3.1.5",
+    "vuex": "~3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.8.4",
+    "@vue/cli-plugin-babel": "~4.2.2",
+    "@vue/cli-plugin-e2e-nightwatch": "~4.2.2",
+    "@vue/cli-plugin-eslint": "~4.2.2",
+    "@vue/cli-plugin-unit-jest": "~4.2.2",
+    "@vue/cli-service": "~4.2.2",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "~10.0.3",
+    "babel-jest": "~25.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "chromedriver": "~80.0.1",
+    "core-js": "~3.6.4",
+    "eslint": "~6.8.0",
+    "eslint-plugin-vue": "~6.2.1",
+    "node-sass": "~4.13.1",
+    "npm-run-all": "~4.1.5",
+    "sass-loader": "~8.0.2",
+    "vue-template-compiler": "~2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 9"
+  ],
+  "engines": {
+    "node": ">= 8.10.x",
+    "npm": ">= 5.6.0"
+  }
+}
