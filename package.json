@@ -15,7 +15,7 @@
     "@coreui/coreui-pro": "~3.0.0",
     "@coreui/icons": "~1.0.1",
     "@coreui/vue": "~3.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "element-ui": "^2.13.0",
     "iview": "^3.5.4",
     "jquery": "^3.4.1",
